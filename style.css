@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+
+}
+
+.header-container {
+
+}
+
+.section-h1-container {
+
+}
+
+.player-section {
+  height: 500px;
+}
+
+.player-container {
+
+}
+
+.box-player {
+
+}
+
+.section-board {
+  display: flex;
+  justify-content: center;
+  border: 1px red solid;
+}
+
+.div-board {
+  display: flex;
+  border: 1px solid black;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+}
