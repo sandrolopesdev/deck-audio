@@ -1,6 +1,6 @@
-const recoveredBoardContainer = document.getElementById('section-board-container');
+const recoveredBoardContainer = document.getElementById('div-board');
 
-let divSize = 9;
+let divSize = 14;
 
 const createDivBoard = (size) => {
   for (let index = 1; index <= size; index += 1) {

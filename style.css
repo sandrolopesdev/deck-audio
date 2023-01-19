@@ -4,19 +4,35 @@
   box-sizing: border-box;
 }
 
-.header {
+html, body {
+  overflow: hidden;
+}
 
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(180deg,rgba(138,43,226,.7) 10%,transparent);
+  height: 70px;
+  /* background-color: rgb(138, 43, 226); */
+  /* border: 1px solid blue; */
+}
+
+main {
+  
 }
 
 .header-container {
-
+  display: flex;
+  padding: 10px;
 }
 
 .section-h1-container {
-
+  /* border: 1px solid red; */
 }
 
 .player-section {
+  display: flex;
+  justify-content: center;
   height: 500px;
 }
 
@@ -31,13 +47,28 @@
 .section-board {
   display: flex;
   justify-content: center;
-  border: 1px red solid;
+}
+
+.section-board-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 70%;
+  padding: ;
+  /* border: solid 1px blueviolet; */
 }
 
 .div-board {
-  display: flex;
   border: 1px solid black;
-  height: 120px;
-  width: 120px;
-  cursor: pointer;
+  border-radius: 20px;
+  width: 180px;
+  height: 180px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
