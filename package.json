@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "bootstrap": "^5.3.0-alpha1"
-  }
+  },
+  "name": "deck-audio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "script.js",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandrolopesdev/deck-audio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandrolopesdev/deck-audio/issues"
+  },
+  "homepage": "https://github.com/sandrolopesdev/deck-audio#readme"
 }
